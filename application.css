@@ -1,0 +1,32 @@
+.word {
+	font-family: serif;
+	padding: 2px;
+	background-color: #f7e6ff;
+	font-size: 20px;
+	display: flex;
+	float: left;
+	margin: 8px;
+	cursor: move;
+	position: relative;
+	opacity: 0.9;
+}
+
+#name {
+	position: fixed;
+	bottom: 5px;
+	right: 7px;
+}
+
+a {
+	font-family: serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: sans-serif;
+	color: #f7e6ff;
+}
